@@ -1,23 +1,22 @@
-# repro-lab-Abdukhanova
-
-Reproducibility lab — Python + PyTorch + Jupyter
+# repro-lab-Abdukhanova: Reproducibility lab — Python + PyTorch + Jupyter
 
 Проект для лабораторной работы по теме реплицируемость экспериментов в PyTorch.
 Содержит код для фиксации сида, обучения простой нейросети на синтетических данных и проверки воспроизводимости результатов.
 
 Структура проекта repro-lab-Abdukhanova:
 .
-├── src/                 # исходный код
-│   ├── seed_utils.py    # утилиты для фиксации случайных сидов
-│   └── train.py         # основной скрипт обучения модели
-│
-├── notebooks/           # Jupyter Notebook с проверкой
-│   └── 01-repro-seeds.ipynb
-│
-├── runs/                # сюда сохраняются модели и JSON-отчёты
-│
-├── requirements.txt     # список зависимостей
-└── README.md            # документация проекта
+src/ (исходный код)
+    seed_utils.py (утилиты для фиксации случайных сидов)
+    train.py (основной скрипт обучения модели)
+
+notebooks (Jupyter Notebook с проверкой)/
+    01-repro-seeds.ipynb
+
+runs (сюда сохраняются модели и JSON-отчёты)/
+
+requirements.txt (список зависимостей)
+
+README.md (документация проекта)
 
 
 Запуск:
